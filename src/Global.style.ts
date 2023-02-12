@@ -10,8 +10,13 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  font: 1rem Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family:'Roboto', sans-serif;
   background-color: ${({ theme }) => theme.color.background};
+  height: 100vh;
 }
 
 button {
